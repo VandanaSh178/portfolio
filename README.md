@@ -1,6 +1,6 @@
 # Vandana Sharma - Software Developer Portfolio
 
-![Portfolio Screenshot]<img width="1920" height="1200" alt="Image" src="https://github.com/user-attachments/assets/80a835f2-ecda-4ccf-ac4b-b7de2d38d463" />This is the official source code for my personal portfolio website, built with **React**, **Vite**, **Tailwind CSS**, and brought to life with **GSAP** and **Three.js** for interactive 3D animations.
+![Portfolio Screenshot]<img width="1873" height="969" alt="Image" src="https://github.com/user-attachments/assets/04845875-ddb7-4331-a031-06d38b24f170" />This is the official source code for my personal portfolio website, built with **React**, **Vite**, **Tailwind CSS**, and brought to life with **GSAP** and **Three.js** for interactive 3D animations.
 
 **Live Demo:** https://portfolio-ten-rho-96.vercel.app/
 
