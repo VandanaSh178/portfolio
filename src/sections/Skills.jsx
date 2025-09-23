@@ -85,7 +85,7 @@ const Skills = () => {
           className="grid grid-cols-2 md:grid-cols-4 gap-8"
           variants={containerVariants}
           initial="hidden"
-          whileInVew="visible"
+          whileInView="visible"
           viewport={{ once: true }}
         >
           {skillStats.map((stat) => (

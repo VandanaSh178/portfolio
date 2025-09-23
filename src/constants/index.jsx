@@ -138,7 +138,7 @@ export const codingProfiles = [
     username: "vandana17sh",
     link: "https://leetcode.com/u/vandana17sh//",
     logo: "images/leetcode.png",
-    stats: { "Problems Solved": "1000+", "Rank": "Knight", "Rating": "1938" },
+    stats: { "Problems Solved": "250+", "Rank": "558869", "Rating": "1415" },
   },
   {
     name: "CodeChef",
