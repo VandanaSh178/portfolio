@@ -10,8 +10,8 @@ import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
 import About from "./sections/About";
 import CodingProfiles from "./sections/CodingProfiles";
-import AchievementCard from "./components/AchievementCard";
-import Achievements from "./sections/Achievements";
+// import AchievementCard from "./components/AchievementCard";
+// import Achievements from "./sections/Achievements";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Certificates from "./sections/Certificates";
@@ -25,7 +25,7 @@ const App = () => (
     <Skills/>
     <Projects/>
     <Experience />
-    <Achievements/>
+    {/* <Achievements/> */}
     <Certificates/>
     <CodingProfiles/>
     <LogoShowcase />

@@ -9,7 +9,7 @@ export const navLinks = [
   { name: "Skills", link: "#skills" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
-  { name: "Achievements", link: "#achievements"},
+  { name: "Coding Profiles", link: "#profiles" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -165,7 +165,7 @@ export const codingProfiles = [
     name: "HackerRank",
     username: "23105021_ece",
     link: "https://www.hackerrank.com/profile/23105021_ece",
-    logo: "images/HackerRank-logo.png", // 👉 Add the HackerRank logo to /public/logos/
+    logo: "images/HackerRank-logo.png", 
     stats: { "Badges Earned": "25+", "Stars": "5-Star (Problem Solving)", "Points": "2000+" },
   },
 ];
@@ -178,23 +178,7 @@ export const achievementsStats = [
   { value: "8.33+", label: "CGPA" },
 ];
 
-export const detailedAchievements = [
-  {
-    category: "Competition",
-    title: "Smart India Hackathon",
-    subtitle: "Internal Round - Rank 2",
-    description: "Secured 2nd position in the internal round, working on the KrishiSeva project.",
-    year: "2024",
-    featured: true,
-  },
-  {
-    category: "Programming",
-    title: "LeetCode Knight Badge",
-    description: "Achieved Knight Badge (Top 3.65%) with a rating of 1938 and solved 1000+ questions.",
-    year: "2023-Present",
-    featured: true,
-  },
-];
+
 
 // Contact Section / Social Links
 export const socialImgs = [
