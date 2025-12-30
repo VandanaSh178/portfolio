@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import CountUp from "react-countup";
 
 const ProfileCard = ({ profile }) => {
   const itemVariants = {
@@ -21,12 +22,14 @@ const ProfileCard = ({ profile }) => {
         </div>
       </div>
 
-      {/* Stats */}
+      {/* Stats with CountUp */}
       <div className="flex-grow space-y-2 mb-6">
         {Object.entries(profile.stats).map(([key, value]) => (
           <div key={key} className="flex justify-between text-gray-300">
             <span>{key}:</span>
-            <span className="font-semibold text-white">{value}</span>
+            <span className="font-semibold text-white">
+              {typeof value === "number" ? <CountUp end={value} duration={1.5} /> : value}
+            </span>
           </div>
         ))}
       </div>
@@ -40,7 +43,13 @@ const ProfileCard = ({ profile }) => {
                    border border-gray-600 hover:bg-blue-500 hover:border-blue-500 transition-colors duration-300"
       >
         View Profile
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-4 w-4 inline-block ml-2"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
         </svg>
       </a>
